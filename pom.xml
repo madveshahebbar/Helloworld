@@ -6,7 +6,7 @@
   <packaging>jar</packaging>
   <name>Maven Build Project</name>
   <description>Maven Build Project</description>
-  <build>
+<build>
  <plugins>
   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -17,4 +17,5 @@
     </configuration>
    </plugin>
  </plugins>
- </project>
+</build>    
+</project>
