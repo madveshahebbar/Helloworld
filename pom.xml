@@ -1,35 +1,9 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>@groupId@</groupId>
-  <artifactId>@artifactId@</artifactId>
-  <version>@version@</version>
+  <groupId>Maventest</groupId>
+  <artifactId>Maventest</artifactId>
+  <version>4.0.0</version>
   <packaging>jar</packaging>
-
-  <name>@ant.project.name@</name>
-  <description>@description@</description>
-  <url>@project.url@</url>
-
-  <licenses>
-    <license>
-      <name>The Unlicense</name>
-      <url>http://unlicense.org/UNLICENSE</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
-
-  <scm>
-    <connection>
-      scm:git:@project.repo.url@
-    </connection>
-    <url>@project.scm.url@</url>
-  </scm>
-
-  <developers>
-    <developer>
-      <name>Madvesha Hebbar</name>
-      <email>madvesha@gmail.com</email>
-      <url>http://nullprogram.com</url>
-      <timezone>-5</timezone>
-    </developer>
-  </developers>
-</project>
+  <name>Maven Build Project</name>
+  <description>Maven Build Project</description>
+ </project>
