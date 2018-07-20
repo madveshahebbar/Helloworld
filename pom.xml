@@ -6,4 +6,13 @@
   <packaging>jar</packaging>
   <name>Maven Build Project</name>
   <description>Maven Build Project</description>
+  <build>
+  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <version>4.0.0</version>
+    <configuration>
+     <warName>${artifactId}</warName>
+    </configuration>
+   </plugin>
  </project>
