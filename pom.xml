@@ -7,7 +7,11 @@
   <name>Maven Build Project</name>
   <description>Maven Build Project</description>
 <build>
-  <sourceDirectory>${project.basedir}</sourceDirectory>
+ <resources>
+   <resource>
+     <directory>C:\Program Files (x86)\Jenkins\jobs\Mavenbuild2\workspace</directory>
+   </resource>
+ </resources>
  <plugins>
   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
